@@ -1,0 +1,51 @@
+"*":
+  "Sublime-Style-Column-Selection":
+    mouseButtonTrigger: "Middle"
+    selectKeyTrigger: "None"
+  "atom-typescript":
+    preferredQuoteCharacter: "'"
+  "autoclose-html":
+    forceInline: [
+      "*"
+    ]
+  core:
+    disabledPackages: [
+      "less-than-slash"
+      "linter-htmlhint"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+      "vendor"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-transpose"
+    ]
+    projectHome: "C:\\workspace"
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontSize: 13
+    invisibles:
+      tab: "—"
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "65c01e40-120a-c16d-be4b-1b5325c70803"
+  linter:
+    errorPanelHeight: 22
+    lintOnFlyInterval: 1000
+  "linter-htmlhint": {}
+  "seti-icons": {}
+  "tree-view":
+    hideIgnoredNames: true
