@@ -18,6 +18,18 @@
 // style the background color of the tree view
 .tree-view {
   // background-color: whitesmoke;
+  //font-size: 11px;
+}
+
+.indent-guide-improved {
+  &.indent-guide-stack {
+    background: repeating-linear-gradient(to bottom, rgba(158, 158, 158, 0.2), rgba(0, 0, 0, 0) 2px );
+
+    &.indent-guide-active {
+      background: repeating-linear-gradient(to bottom, rgb(1, 162, 226), rgba(0, 0, 0, 0) 2px );
+    }
+  }
+  background: repeating-linear-gradient(to bottom, rgba(158, 158, 158, 0.2), rgba(0, 0, 0, 0) 2px );
 }
 
 // style the background and foreground colors on the atom-text-editor-element itself

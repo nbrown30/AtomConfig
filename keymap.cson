@@ -37,3 +37,6 @@
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-shift-[': 'editor:fold-selection'
   'ctrl-shift-]': 'editor:unfold-selection'
+
+ '.platform-win32':
+  'ctrl-shift-o': 'project-manager:list-projects'

@@ -1,0 +1,17 @@
+[
+  {
+    title: "Dc Waitlist Dev"
+    paths: [
+      "C:\\workspace\\DC-Waitlist-Dev"
+      "C:\\workspace\\OSP"
+    ]
+    devMode: true
+  }
+  {
+    title: "OSP"
+    paths: [
+      "C:\\workspace\\OSP"
+    ]
+    devMode: true
+  }
+]

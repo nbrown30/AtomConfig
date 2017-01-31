@@ -1,4 +1,7 @@
 "*":
+  "MavensMate-Atom":
+    mm_close_panel_on_successful_operation: false
+    mm_panel_height: 134
   "Sublime-Style-Column-Selection":
     mouseButtonTrigger: "Middle"
     selectKeyTrigger: "None"
@@ -22,6 +25,7 @@
       "Thumbs.db"
       "node_modules"
       "vendor"
+      "*-meta.xml"
     ]
     packagesWithKeymapsDisabled: [
       "atom-transpose"
@@ -29,23 +33,32 @@
     projectHome: "C:\\workspace"
     telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
+      "atom-dark-ui-slim"
       "monokai"
     ]
   editor:
-    fontSize: 13
+    fontSize: 12
     invisibles:
       tab: "—"
     preferredLineLength: 120
-    showIndentGuide: true
     showInvisibles: true
     tabLength: 4
   "exception-reporting":
     userId: "65c01e40-120a-c16d-be4b-1b5325c70803"
+  "file-icons":
+    strategies:
+      usertypes: false
+    tabPaneIcon: false
   linter:
     errorPanelHeight: 22
     lintOnFlyInterval: 1000
   "linter-htmlhint": {}
-  "seti-icons": {}
+  "seti-icons":
+    noColor: true
   "tree-view":
     hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".apex.source":
+  editor:
+    showIndentGuide: true
