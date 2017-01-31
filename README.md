@@ -1,8 +1,5 @@
 # AtomConfig
-Personal Atom configuration
-
-## Make it work like Sublime with MavensMate
-This config is customized to mimic a Monokai Sublime Text 3 editor as much as possible.
+Atom with MavensMate, styled to look and feel like Sublime Text 3.
 
 ## Community Packages
 
@@ -13,3 +10,12 @@ Rather than store the packages in GitHub we can export their names and install a
 
     apm install --package-file package-backup.txt
 ```
+
+## MavensMate configuration
+Ensure the Atom path in MavensMate is set correctly for your operating system. If not you will receive this error:
+
+```
+    [ERROR] result.resolve is not a function
+```
+
+This is indicative of a bad path. 
